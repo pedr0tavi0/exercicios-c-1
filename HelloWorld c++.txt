@@ -1,0 +1,30 @@
+#incluir <iostream>
+/* comentario de bloco-
+/* execute este programa usando o pauser do console ou adicione seu próprio getch, system("pause") ou loop de entrada */
+
+
+//comentario de linha
+usando namespace std;
+int main() {// inicio do bloco de intruções
+//declarando variavies
+ nome da cadeia de caracteres;
+//mostrando uma mensagem na tela
+cout << "informe seu nome: \n"; \n ou endl pular linha
+//lendo o dado via teclado
+cin >> nome;
+cout <<"ola, " <<nome << "  seja bem vindo(a)" << endl;
+	
+	
+	0
+	
+	
+	
+	
+	
+	
+	retorno 0;
+}//final do bloco de instruções
+
+
+
+

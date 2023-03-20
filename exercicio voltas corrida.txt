@@ -1,0 +1,52 @@
+#incluir <iostream>
+usando namespace std;
+
+
+int principal(){
+
+
+	int n=0, tv, mt=99, vmt, maiort; //um numero para comparar 99
+	meios flutuantes soma;
+	
+ cout << "A corrida tera quantas voltas?";
+ >> cin n;
+
+	
+
+
+	//estrutura para ate
+	for(int cont=1; cont <= n; cont++){ // conta até o numero de voltas (n) escolhido
+		cout << "Qual o tempo dessa volta? \n";
+		cin >> tv;
+		
+		if (tv < mt){
+		
+ mt = tv; acha melhor volta
+ vmt = cont; guarda o numero das volta
+			}
+		if (tv > maiort){
+		
+ maiort = tv; acha o maior tempo das volta
+			}
+ soma = soma + tv; // irá somar os tempos das voltas
+		}
+		
+ mídia = soma / n; //ira dividir os tempos da voltas e dividilo pelo numero de voltas
+		
+ cout << "Melhor tempo :" << mt << endl;
+ cout << "Melhor volta :" << vmt <<endl;
+ cout << "Maior tempo :" << maiort <<endl;
+ cout << "Media de tempo": << media;
+		
+				
+	
+	
+	
+	
+	
+	
+	
+	
+
+	retorno 0;
+}

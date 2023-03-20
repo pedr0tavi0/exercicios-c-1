@@ -1,0 +1,57 @@
+#incluir <iostream>
+
+usando namespace std;
+
+int principal() {
+	int op, i=0;
+ string nomes [10], contatos[10];
+		fazer{
+		
+		
+ cout << "+=============Menu=========+ \n";
+ cout << "| 1 - Cadastra Contato | \n";
+ cout << "| 2 - Mostra Contato | \n";
+ cout << "| 3 - Sair | \n";
+ cout << "+================================ \n";
+ cout << "  Escolha a opcao: ";
+		cin >> op; 
+		
+		switch(op){
+			Caso 1:
+				se (i<=9){
+ cout << "*** Rotina de Cadastro ***\n";
+ cout << "#" <<i << "\n";
+ cout << "Informar o nome: \n";
+				cin >> nomes[i];
+ cout << "Informar o contato: \n";
+				cin >> contatos [i];
+				i++;
+			} mais{
+				cout << "Agenda Cheia !!!!  \n";
+			}
+				quebrar;
+				
+				
+			Caso 2:
+				for(int c=0; c < i; c++){
+ cout << "****Contatos**** \n";
+ cout << "Nome:  " << nomes[c] << "\n";
+ cout <<"Contato:" << contatos[c] << "\n";
+ cout <<"=============================\n";
+		    }
+		    system("pausa");
+			quebrar;
+			
+			Caso 3:
+				cout << "Saindo... \n";
+				quebrar;
+			padrão:
+			cout << "opcao Invalida !!!  \n";
+			quebrar;	
+		}//fim do switch
+		sistema("cls");
+	
+     }enquanto(op!=3); 
+	
+	retorno 0;
+}
